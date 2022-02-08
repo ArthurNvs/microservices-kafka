@@ -12,7 +12,6 @@
 
     <artifactId>kafka-admin</artifactId>
 
-<<<<<<< HEAD
     <dependencies>
         <dependency>
             <groupId>com.microservices.demo</groupId>
@@ -28,7 +27,5 @@
         </dependency>
     </dependencies>
 
-=======
->>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
 
 </project>

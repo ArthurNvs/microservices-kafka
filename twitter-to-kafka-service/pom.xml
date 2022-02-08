@@ -16,42 +16,19 @@
             <groupId>com.microservices.demo</groupId>
             <artifactId>app-config-data</artifactId>
         </dependency>
-<<<<<<< HEAD
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-=======
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <version>${spring-boot.version}</version>
-        </dependency>
-
->>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-<<<<<<< HEAD
-=======
-
->>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
         <dependency>
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-stream</artifactId>
         </dependency>
-<<<<<<< HEAD
-=======
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
->>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
     </dependencies>
 
     <build>
@@ -63,12 +40,5 @@
         </plugins>
     </build>
 
-<<<<<<< HEAD
-=======
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
->>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
 
 </project>

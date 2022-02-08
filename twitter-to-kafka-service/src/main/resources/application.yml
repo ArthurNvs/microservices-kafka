@@ -8,7 +8,6 @@ twitter-to-kafka-service:
   enable-mock-tweets: true
   mock-min-tweet-length: 5
   mock-max-tweet-length: 15
-<<<<<<< HEAD
   mock-sleep-ms: 10000
 
 retry-config:
@@ -27,6 +26,3 @@ kafka-config:
     - twitter-topic
   num-of-partitions: 3
   replication-factor: 3
-=======
-  mock-sleep-ms: 10000
->>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
