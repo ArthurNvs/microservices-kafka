@@ -4,8 +4,11 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+<<<<<<< HEAD
 *.log
 
+=======
+>>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
 ### STS ###
 .apt_generated
 .classpath

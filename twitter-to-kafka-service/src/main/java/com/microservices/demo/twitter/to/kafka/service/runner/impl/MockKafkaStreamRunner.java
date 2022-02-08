@@ -73,7 +73,11 @@ public class MockKafkaStreamRunner implements StreamRunner {
     }
 
     @Override
+<<<<<<< HEAD
     public void start() throws TwitterException {
+=======
+    public void start() {
+>>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
         final String[] keywords = twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[0]);
         final int minTweetLength = twitterToKafkaServiceConfigData.getMockMinTweetLength();
         final int maxTweetLength = twitterToKafkaServiceConfigData.getMockMaxTweetLength();
@@ -140,4 +144,8 @@ public class MockKafkaStreamRunner implements StreamRunner {
         return tweet.toString().trim();
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 656b6dd965282b6221e0d01da8d6343a612cf35d
